@@ -1,48 +1,79 @@
-<x-guest-layout>
-    <x-jet-authentication-card>
-        <x-slot name="logo">
-            <x-jet-authentication-card-logo />
-        </x-slot>
-
-        <x-jet-validation-errors class="mb-4" />
-
-        @if (session('status'))
-            <div class="mb-4 font-medium text-sm text-green-600">
-                {{ session('status') }}
+@include('layouts.header')
+<!-- Start Page Title Area -->
+<div class="page-title-area">
+    <div class="d-table">
+        <div class="d-table-cell">
+            <div class="container">
+                <div class="page-title-content">
+                    <h2>Login</h2>
+                    <ul>
+                        <li><a href="{{route('home')}}">Home</a></li>
+                        <li>Login</li>
+                    </ul>
+                </div>
             </div>
-        @endif
-
-        <form method="POST" action="{{ route('login') }}">
-            @csrf
-
-            <div>
-                <x-jet-label for="email" value="{{ __('Email') }}" />
-                <x-jet-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
-            </div>
-
-            <div class="mt-4">
-                <x-jet-label for="password" value="{{ __('Password') }}" />
-                <x-jet-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="current-password" />
-            </div>
-
-            <div class="block mt-4">
-                <label for="remember_me" class="flex items-center">
-                    <x-jet-checkbox id="remember_me" name="remember" />
-                    <span class="ml-2 text-sm text-gray-600">{{ __('Remember me') }}</span>
-                </label>
+        </div>
+    </div>
+</div>
+<!-- End Page Title Area -->
+<!-- Start Login Area -->
+<div class="login-section ptb-100">
+    <div class="container">
+        <div class="login-form">
+            <div class="login-title">
+                <h3>Welcome Back!</h3>
+                <p>Please login to your account.</p>
             </div>
 
-            <div class="flex items-center justify-end mt-4">
-                @if (Route::has('password.request'))
-                    <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
-                        {{ __('Forgot your password?') }}
-                    </a>
-                @endif
 
-                <x-jet-button class="ml-4">
-                    {{ __('Log in') }}
-                </x-jet-button>
-            </div>
-        </form>
-    </x-jet-authentication-card>
-</x-guest-layout>
+            <form method="POST" action="{{ route('login') }}">
+                @csrf
+                <div class="row">
+                    @if (session('status'))
+                        <div class="alert alert-success">
+                            {{ session('status') }}
+                        </div>
+                    @endif
+
+                    <x-jet-validation-errors class="alert alert-danger" />
+
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" placeholder="Email" required>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <input type="password" name="password" class="form-control" placeholder="Password">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="remember_me" name="remember">
+                            <label class="form-check-label" for="checkme">Keep me Login</label>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <a href="{{route('password.request')}}">Forget Password?</a>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="send-btn">
+                            <button type="submit" class="default-btn">
+                                Login Now
+                                <span></span>
+                            </button>
+                        </div>
+                        <br>
+                        <span>Don't have account? <a href="{{route('register')}}">Signup!</a></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- End Login Area -->
+@include('layouts.footer')

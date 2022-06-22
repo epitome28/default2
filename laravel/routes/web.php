@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 
 Route::middleware([
     'auth:sanctum',
@@ -27,4 +28,14 @@ Route::middleware([
     })->name('dashboard');
 });
 
-Route::view('home', 'home');
+Route::view('contact-us', 'contact-us');
+Route::view('admin/add-product', 'admin/add-product');
+Route::get('/', [ProductController::class, 'index'])->name('home');
+Route::get('home', [ProductController::class, 'index'])->name('home');
+Route::get('shop', [ProductController::class, 'shop'])->name('shop');
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('cart', [ProductController::class, 'cat' ])->name('cart');
+    Route::get('add-cart/{id}', [ProductController::class, 'addcat'])->name('add-cart');
+
+});

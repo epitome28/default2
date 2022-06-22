@@ -67,14 +67,14 @@
     <div class="trifles-nav">
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light">
-                <a class="navbar-brand" href="{{url('home')}}">
+                <a class="navbar-brand" href="{{route('home')}}">
                     <img src="{{asset('assets/img/logo-two.png')}}" alt="logo">
                 </a>
 
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="{{url('home')}}" class="nav-link active">
+                            <a href="{{route('home')}}" class="nav-link ">
                                 Home
                             </a>
 
@@ -88,13 +88,13 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="{{route('shop')}}" class="nav-link">
                                 Shop
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a href=" " class="nav-link">
+                            <a href="{{route('login')}}" class="nav-link">
                                 Account
                             </a>
 
@@ -203,11 +203,11 @@
                     <h2>
                         <a href="tel:+0881306298615">
                             +088 130 629 8615
-                        </a>
+                        </a>2
                         <span>OR</span>
                         <a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#7e0a0c1718121b0d3e19131f1712501d1113">
                             <span class="__cf_email__" data-cfemail="7501071c13191006351218141c195b161a18">[email&#160;protected]</span>
-                        </a>
+                        </a>0
                     </h2>
 
                     <ul class="social">

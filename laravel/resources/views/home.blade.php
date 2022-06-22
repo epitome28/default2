@@ -268,10 +268,11 @@
             <div class="tab_content">
                 <div class="tabs_item">
                     <div class="row align-items-center">
+                        @foreach($product as $shop)
                         <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="shop-item">
                                 <div class="shop-image">
-                                    <img src="assets/img/shop/cauliflower.png" alt="image">
+                                    <img src="{{asset('storage/product').'/'.$shop->path}}" alt="image">
                                 </div>
 
                                 <ul class="shop-list">
@@ -293,11 +294,11 @@
                                 </ul>
 
                                 <div class="shop-content">
-                                    <h3>Fresh Cauliflower</h3>
-                                    <span>$50</span>
+                                    <h3>{{$shop->product_name}}</h3>
+                                    <span>₦{{number_format(intval($shop->amount *1))}}</span>
 
                                     <div class="shop-btn">
-                                        <a href="cart.html" class="shop-btn-one">
+                                        <a href="{{route('cart',$shop->id)}}" class="shop-btn-one">
                                             Add To Cart
                                             <i class="flaticon-plus"></i>
                                         </a>
@@ -305,120 +306,7 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="shop-item">
-                                <div class="shop-image">
-                                    <img src="assets/img/shop/fish.png" alt="image">
-                                </div>
-
-                                <ul class="shop-list">
-                                    <li>
-                                        <i class="fas fa-star"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-star"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-star"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-star"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-star"></i>
-                                    </li>
-                                </ul>
-
-                                <div class="shop-content">
-                                    <h3>Bunch Fresh Fish</h3>
-                                    <span>$90</span>
-
-                                    <div class="shop-btn">
-                                        <a href="cart.html" class="shop-btn-one">
-                                            Add To Cart
-                                            <i class="flaticon-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="shop-item">
-                                <div class="shop-image">
-                                    <img src="assets/img/shop/eggplant.png" alt="image">
-                                </div>
-
-                                <ul class="shop-list">
-                                    <li>
-                                        <i class="fas fa-star"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-star"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-star"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-star"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-star"></i>
-                                    </li>
-                                </ul>
-
-                                <div class="shop-content">
-                                    <h3>Fresh Eggplant</h3>
-                                    <span>$30</span>
-
-                                    <div class="shop-btn">
-                                        <a href="cart.html" class="shop-btn-one">
-                                            Add To Cart
-                                            <i class="flaticon-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="shop-item">
-                                <div class="shop-image">
-                                    <img src="assets/img/shop/milk.png" alt="image">
-                                </div>
-
-                                <ul class="shop-list">
-                                    <li>
-                                        <i class="fas fa-star"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-star"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-star"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-star"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-star"></i>
-                                    </li>
-                                </ul>
-
-                                <div class="shop-content">
-                                    <h3>Organic Milk</h3>
-                                    <span>$65</span>
-
-                                    <div class="shop-btn">
-                                        <a href="cart.html" class="shop-btn-one">
-                                            Add To Cart
-                                            <i class="flaticon-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                            @endforeach
                     </div>
                 </div>
 

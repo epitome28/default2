@@ -1,60 +1,85 @@
-<x-guest-layout>
-    <x-jet-authentication-card>
-        <x-slot name="logo">
-            <x-jet-authentication-card-logo />
-        </x-slot>
+@include('layouts.header')
 
-        <x-jet-validation-errors class="mb-4" />
-
-        <form method="POST" action="{{ route('register') }}">
-            @csrf
-
-            <div>
-                <x-jet-label for="name" value="{{ __('Name') }}" />
-                <x-jet-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
+<!-- Start Page Title Area -->
+<div class="page-title-area">
+    <div class="d-table">
+        <div class="d-table-cell">
+            <div class="container">
+                <div class="page-title-content">
+                    <h2>Sign Up</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li>Sign Up</li>
+                    </ul>
+                </div>
             </div>
+        </div>
+    </div>
+</div>
+<!-- End Page Title Area -->
 
-            <div class="mt-4">
-                <x-jet-label for="email" value="{{ __('Email') }}" />
-                <x-jet-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
-            </div>
+<!-- Start Signup Area -->
+<div class="signup-section ptb-100">
+    <div class="container">
+        <div class="signup-form">
+            <h3>Create your Account</h3>
+            <form method="POST" action="{{ route('register') }}">
+                @csrf
 
-            <div class="mt-4">
-                <x-jet-label for="password" value="{{ __('Password') }}" />
-                <x-jet-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="new-password" />
-            </div>
+                <x-jet-validation-errors class="alert alert-danger" />
 
-            <div class="mt-4">
-                <x-jet-label for="password_confirmation" value="{{ __('Confirm Password') }}" />
-                <x-jet-input id="password_confirmation" class="block mt-1 w-full" type="password" name="password_confirmation" required autocomplete="new-password" />
-            </div>
+                <div class="col-lg-12">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Full name" required>
+                    </div>
+                </div>
 
-            @if (Laravel\Jetstream\Jetstream::hasTermsAndPrivacyPolicyFeature())
-                <div class="mt-4">
-                    <x-jet-label for="terms">
-                        <div class="flex items-center">
-                            <x-jet-checkbox name="terms" id="terms"/>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <input type="text" name="username" class="form-control" placeholder="Username" required>
+                        </div>
+                    </div>
 
-                            <div class="ml-2">
-                                {!! __('I agree to the :terms_of_service and :privacy_policy', [
-                                        'terms_of_service' => '<a target="_blank" href="'.route('terms.show').'" class="underline text-sm text-gray-600 hover:text-gray-900">'.__('Terms of Service').'</a>',
-                                        'privacy_policy' => '<a target="_blank" href="'.route('policy.show').'" class="underline text-sm text-gray-600 hover:text-gray-900">'.__('Privacy Policy').'</a>',
-                                ]) !!}
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <input type="tel" name="number" class="form-control" placeholder="Phone number"  maxlength = "11" required>
                             </div>
                         </div>
-                    </x-jet-label>
-                </div>
-            @endif
 
-            <div class="flex items-center justify-end mt-4">
-                <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('login') }}">
-                    {{ __('Already registered?') }}
-                </a>
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <input type="text" name="email" class="form-control" placeholder="Email" required>
+                            </div>
+                        </div>
 
-                <x-jet-button class="ml-4">
-                    {{ __('Register') }}
-                </x-jet-button>
-            </div>
-        </form>
-    </x-jet-authentication-card>
-</x-guest-layout>
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <input type="password" name="password" class="form-control" placeholder="Password" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <input type="password" name="password_confirmation" class="form-control" placeholder="password_confirmation" required>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="send-btn">
+                                <button type="submit" class="default-btn">
+                                    Signup Now
+                                    <span></span>
+                                </button>
+                            </div>
+                            <br>
+                            <span>Already a registered user? <a href="{{route('login')}}">Login!</a></span>
+                        </div>
+                    </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- End Signup Area -->
+
+@include('layouts.footer')

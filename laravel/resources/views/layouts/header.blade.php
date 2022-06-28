@@ -34,12 +34,7 @@
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
-    @livewireStyles
-
-    <!-- Scripts -->
-    <script src="{{ mix('js/app.js') }}" defer></script>
     <title>Okele Special Food</title>
 
     <link rel="icon" type="image/png" href="{{asset('assets/img/favicon.png')}}">
@@ -88,7 +83,13 @@
 
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                Pages
+                               About-Us
+                            </a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Services
                             </a>
 
                         </li>
@@ -111,6 +112,14 @@
                                 Contact
                             </a>
                         </li>
+                        @if(Auth()->user())
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="fa fa-user"></i>
+                                   Hello! {{Auth::user()->name}}
+                                </a>
+                            </li>
+                            @endif
                     </ul>
 
                     <div class="others-options">

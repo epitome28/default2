@@ -1,4 +1,10 @@
 @include('layouts.header')
+<link rel="stylesheet" href="{{ mix('css/app.css') }}">
+
+@livewireStyles
+
+<!-- Scripts -->
+<script src="{{ mix('js/app.js') }}" defer></script>
 <!-- Start Page Title Area -->
 <div class="page-title-area item-bg2">
     <div class="d-table">
@@ -9,6 +15,14 @@
                     <ul>
                         <li><a href="{{route('home')}}">Home</a></li>
                         <li>My Account</li>
+                        <li class="nav-item">
+                            <form method="post" action="{{route('logout')}}" >
+                                @csrf
+                                <button type="submit" class="btn btn-outline-success">
+                                    logout
+                                </button>
+                            </form>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -60,4 +74,6 @@
         @endif
     </div>
 </div>
+@livewireScripts
+
 @include('layouts.footer')

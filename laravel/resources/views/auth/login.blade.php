@@ -39,13 +39,13 @@
 
                     <div class="col-lg-12">
                         <div class="form-group">
-                            <input type="email" name="email" class="form-control" placeholder="Email" required>
+                            <input type="email" name="email" class="form-control" placeholder="Email" required />
                         </div>
                     </div>
 
                     <div class="col-lg-12">
                         <div class="form-group">
-                            <input type="password" name="password" class="form-control" placeholder="Password">
+                            <input type="password" name="password" class="form-control" placeholder="Password" required/>
                         </div>
                     </div>
 

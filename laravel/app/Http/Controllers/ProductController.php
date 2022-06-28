@@ -14,11 +14,11 @@ public function index()
 {
     if (Auth()->user()) {
         $cat = DB::table('cats')->where('username', '=', Auth::user()->username)->count();
-        $product= DB::table('products')->where('status', '=', '1')->limit('5')->get();
+        $product= DB::table('products')->where('status', '=', '1')->limit('4')->get();
 
         return view("home", compact("product", "cat"));
     }
-$product= DB::table('products')->where('status', '=', '1')->limit('5')->get();
+$product= DB::table('products')->where('status', '=', '1')->limit('4')->get();
 //    $pam=DB::table('gallerys')->where('status', '=', '1')->get();
 
 return view("home", compact("product"));

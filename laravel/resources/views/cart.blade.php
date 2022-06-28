@@ -48,7 +48,7 @@
                                     </td>
 
                                     <td class="product-name">
-                                        <a href="#">{{$shop->product_name}}</a>
+                                        <a href="#">{{$shop->product}}</a>
                                     </td>
 
                                     <td class="product-price">
@@ -70,7 +70,7 @@
                                     <td class="product-subtotal">
                                         <span class="subtotal-amount">₦{{number_format(intval($shop->amount *1))}}</span>
 
-                                        <a href="#" class="remove">
+                                        <a href="{{route('dele',$shop->id)}}" class="remove">
                                             <i class="fa fa-trash"></i>
                                         </a>
                                     </td>
@@ -138,9 +138,9 @@
                             <div class="cart-totals">
                                 <h3>Cart Totals</h3>
                                 <ul>
-                                    <li>Subtotal <span>#6400.00</span></li>
-                                    <li>Shipping <span>#500.00</span></li>
-                                    <li>Total <span><b>#6900.00</b></span></li>
+                                    <li>Subtotal <span>₦{{number_format(intval($sumc *1))}}</span></li>
+                                    <li>Shipping <span>₦{{number_format(intval($ship *1))}}</span></li>
+                                    <li>Total <span><b>₦{{number_format(intval($tsum *1))}}</b></span></li>
                                 </ul>
                                 <a href="checkout.html" class="default-btn">
                                     Proceed to Checkout

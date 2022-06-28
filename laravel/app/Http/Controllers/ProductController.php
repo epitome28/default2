@@ -33,22 +33,32 @@ public  function cat()
 {
     $cat=DB::table('cats')->where('username', '=', Auth::user()->username)->get();
 
-    return view("cart", compact("cat"));
+    $sumc=cat::where('username', Auth::user()->username)->sum('amount');
+    if ($sumc ==0){
+        $ship=0;
+    }else {
+        $ship = 1000;
+    }
+    $tsum=$sumc + $ship;
+    return view("cart", compact("cat", "ship", "tsum", "sumc"));
 }
 
-public  function  addcat(Request $request)
+public function addcat($request)
 {
-    $request->validate([
-        'id' => 'required',
-    ]);
+//    return $request;
+//    $request->validate([
+//        'id' => 'required',
+//    ]);
 
-    $product= product::where('id', $request->id)->first();
+    $product= product::where('id', $request)->first();
     $cat=cat::create([
         'username' => Auth::user()->username,
         'product' => $product['product_name'],
         'product_id' => $product['product_id'],
+        'amount'=>$product['amount'],
+        'path'=>$product['path'],
     ]);
-    return redirect(route('cat'))
+    return redirect(route('cart'))
         ->with('status', 'New cart');
 }
 public  function details(Request  $request)
@@ -57,5 +67,10 @@ public  function details(Request  $request)
 
     return view("product-detail", compact("product"));
 
+}
+public function delete($request)
+{
+    $delete=cat::where('id', $request)->delete();
+    return redirect(route("cart"))->with('status', 'cart has been deleted');
 }
 }

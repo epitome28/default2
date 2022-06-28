@@ -33,7 +33,13 @@
     <link rel="stylesheet" href="{{asset('assets/css/dark.css')}}">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
+    @livewireStyles
+
+    <!-- Scripts -->
+    <script src="{{ mix('js/app.js') }}" defer></script>
     <title>Okele Special Food</title>
 
     <link rel="icon" type="image/png" href="{{asset('assets/img/favicon.png')}}">
@@ -94,7 +100,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="{{route('login')}}" class="nav-link">
+                            <a href="{{route('dashboard')}}" class="nav-link">
                                 Account
                             </a>
 
@@ -124,9 +130,9 @@
                         </div>
 
                         <div class="cart-btn">
-                            <a href="cart.html">
+                            <a href="{{route('cart')}}">
                                 <i class="fa fa-shopping-cart"></i>
-                                <span>2</span>
+                                <span></span>
                             </a>
                         </div>
 

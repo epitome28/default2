@@ -38,6 +38,7 @@ Route::get('shop', [ProductController::class, 'shop'])->name('shop');
 
 Route::middleware(['auth'])->group(function () {
     Route::get('cart', [ProductController::class, 'cat' ])->name('cart');
+    Route::get('dele/{id}', [ProductController::class, 'delete' ])->name('dele');
     Route::get('add-cart/{id}', [ProductController::class, 'addcat'])->name('add-cart');
 
 });

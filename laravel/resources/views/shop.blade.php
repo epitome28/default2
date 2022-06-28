@@ -59,7 +59,7 @@
                                     <span>₦{{number_format(intval($shop->amount *1))}}</span>
 
                                     <div class="shop-btn">
-                                        <a href="{{route('cart',$shop->id)}}" class="shop-btn-one">
+                                        <a href="{{route('add-cart',$shop->id)}}" class="shop-btn-one">
                                             Add To Cart
                                             <i class="flaticon-plus"></i>
                                         </a>

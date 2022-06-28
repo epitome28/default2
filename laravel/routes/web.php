@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\admin\AddproductController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
@@ -32,6 +33,7 @@ Route::view('contact-us', 'contact-us');
 Route::view('admin/add-product', 'admin/add-product');
 Route::get('/', [ProductController::class, 'index'])->name('home');
 Route::get('home', [ProductController::class, 'index'])->name('home');
+Route::post('add', [AddproductController::class, 'add'])->name('add');
 Route::get('shop', [ProductController::class, 'shop'])->name('shop');
 
 Route::middleware(['auth'])->group(function () {

@@ -1,4 +1,21 @@
 @include('layouts.header')
+<!-- Start Page Title Area -->
+<div class="page-title-area item-bg2">
+    <div class="d-table">
+        <div class="d-table-cell">
+            <div class="container">
+                <div class="page-title-content">
+                    <h2>Shop</h2>
+                    <ul>
+                        <li><a href="{{route('home')}}">Home</a></li>
+                        <li>Shop</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Page Title Area -->
 
 <!-- Start Shop Section -->
 <section class="shop-section pt-100 pb-70">
@@ -49,8 +66,8 @@
                                     </div>
                                 </div>
                             </div>
-                            @endforeach
                         </div>
+                        @endforeach
                     </div>
                 </div>
             </div>

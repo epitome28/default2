@@ -31,9 +31,9 @@ return view("shop", compact("product"));
 }
 public  function cat()
 {
-    $cat=cat::where('username', Auth::user()->username)->where('status', '1')->get();
+    $cat=DB::table('cats')->where('username', '=', Auth::user()->username)->get();
 
-    return view("cat", compact("cat"));
+    return view("cart", compact("cat"));
 }
 
 public  function  addcat(Request $request)

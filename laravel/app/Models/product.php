@@ -2,7 +2,10 @@
 
 namespace App\Models;
 
-class product
+use Illuminate\Auth\Middleware\Authenticate;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+
+class product extends Authenticatable
 {
     /**
      * The attributes that are mass assignable.

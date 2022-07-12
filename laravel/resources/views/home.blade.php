@@ -984,12 +984,12 @@
         <div class="testimonials-slider owl-carousel owl-theme">
             <div class="testimonials-item">
                 <div class="testimonials-content">
-                    <h3>Edward Elimar</h3>
-                    <span>Finest Agriculture, UK</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                    <h3>Tosin</h3>
+                    <span>Ibadan, Nigeria</span>
+                    <p>Thank You" for making such wonderful quality products. I especially love-love-love</p>
 
                     <div class="testimonials-info">
-                        <img src="assets/img/client/1.jpg" alt="image">
+                        <img src="assets/img/client/15.jpg" alt="image">
                         <div class="icon">
                             <i class="flaticon-quote"></i>
                         </div>
@@ -1016,12 +1016,12 @@
 
             <div class="testimonials-item">
                 <div class="testimonials-content">
-                    <h3>Hamfard Kolin</h3>
-                    <span>Agriculture Terbo, Canada</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                    <h3>Akinyele</h3>
+                    <span>Lagos, Nigeria</span>
+                    <p>Just a word of thanks to your company for the continued great service</p>
 
                     <div class="testimonials-info">
-                        <img src="assets/img/client/2.jpg" alt="image">
+                        <img src="assets/img/client/14.jpg" alt="image">
                         <div class="icon">
                             <i class="flaticon-quote"></i>
                         </div>
@@ -1048,12 +1048,12 @@
 
             <div class="testimonials-item">
                 <div class="testimonials-content">
-                    <h3>Jupiter Bolin</h3>
-                    <span>Cultivation Into, USA</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                    <h3>Ayomide</h3>
+                    <span>ikeja,Nigeria</span>
+                    <p>I just wanted to say a huge "thank you" for my 1st delivery from the food delivery company yesterday</p>
 
                     <div class="testimonials-info">
-                        <img src="assets/img/client/3.jpg" alt="image">
+                        <img src="assets/img/client/12.jpg" alt="image">
                         <div class="icon">
                             <i class="flaticon-quote"></i>
                         </div>
@@ -1080,12 +1080,12 @@
 
             <div class="testimonials-item">
                 <div class="testimonials-content">
-                    <h3>Marie Curie Sklodowska</h3>
-                    <span>Finest Agriculture, Canada</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                    <h3>Samuel</h3>
+                    <span>Abeokuta, Nigeria</span>
+                    <p> I would just like to say how continually pleased we are with everything about your company.</p>
 
                     <div class="testimonials-info">
-                        <img src="assets/img/client/4.jpg" alt="image">
+                        <img src="assets/img/client/13.jpg" alt="image">
                         <div class="icon">
                             <i class="flaticon-quote"></i>
                         </div>
@@ -1112,12 +1112,12 @@
 
             <div class="testimonials-item">
                 <div class="testimonials-content">
-                    <h3>Louis Pasteur</h3>
-                    <span>Finest Agriculture, Japan</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                    <h3>Toluwalope</h3>
+                    <span>Ogba, lagos, Nigeria</span>
+                    <p> I just wanted to say how much we appreciate your service. We have had deliveries for a while now and the quality has never dipped.</p>
 
                     <div class="testimonials-info">
-                        <img src="assets/img/client/2.jpg" alt="image">
+                        <img src="assets/img/client/11.jpg" alt="image">
                         <div class="icon">
                             <i class="flaticon-quote"></i>
                         </div>
@@ -1151,16 +1151,16 @@
     <div class="container">
         <div class="section-title">
             <span>OUR BLOG</span>
-            <h3>Articles & news</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreonsectetur adipiscinet dolore.</p>
+            <h3>Funny Jokes About Food</h3>
+            <p>You might not be able to explain why eba tastes better when you eat it with your hands, but you know in your heart that it’s true</p>
         </div>
 
         <div class="row">
             <div class="col-lg-4 col-md-6">
                 <div class="single-blog-item bg-1">
-                    <span>Trifles for tech, 22 January</span>
-                    <h3>Innovating with Autodesk my Trifles Partnership Adds</h3>
-                    <p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempo incididun.</p>
+                    <span>Okela special, 22 July</span>
+                    <h3>Swallow tastes better when you eat it with your hands</h3>
+                    <p>Keep that fork away from me.</p>
                     <div class="blog-btn">
                         <a href="single-news.html" class="blog-btn-one">
                             Learn more
@@ -1172,9 +1172,9 @@
 
             <div class="col-lg-4 col-md-6">
                 <div class="single-blog-item bg-2">
-                    <span>Woman for Trifles, August 23</span>
-                    <h3>My Trifles Grows in World Delivering Impact on woman</h3>
-                    <p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempo incididun.</p>
+                    <span>Okela special, 22 July</span>
+                    <h3>Pounded yam tastes better when someone else does the pounding</h3>
+                    <p>Especially if they sweat inside it small. Don’t @ us.</p>
                     <div class="blog-btn">
                         <a href="single-news.html" class="blog-btn-one">
                             Learn more
@@ -1186,9 +1186,9 @@
 
             <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
                 <div class="single-blog-item bg-3">
-                    <span>Success history, February 26</span>
-                    <h3>Wrapping Up a Successful Month of Orientation Senegal </h3>
-                    <p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempo incididun.</p>
+                    <span>Okela special, 22 July</span>
+                    <h3> You’re never too full to eat your meat. </h3>
+                    <p>There is always space in your stomach.</p>
                     <div class="blog-btn">
                         <a href="single-news.html" class="blog-btn-one">
                             Learn more
@@ -1203,59 +1203,7 @@
 <!-- End Blog Section -->
 
 <!-- Start Partner Section -->
-<div class="partner-section">
-    <div class="container">
-        <div class="partner-list">
-            <div class="partner-item">
-                <a href="partner.html">
-                    <img src="assets/img/partner/1.png" alt="image">
-                </a>
-            </div>
 
-            <div class="partner-item">
-                <a href="partner.html">
-                    <img src="assets/img/partner/2.png" alt="image">
-                </a>
-            </div>
-
-            <div class="partner-item">
-                <a href="partner.html">
-                    <img src="assets/img/partner/3.png" alt="image">
-                </a>
-            </div>
-
-            <div class="partner-item">
-                <a href="partner.html">
-                    <img src="assets/img/partner/4.png" alt="image">
-                </a>
-            </div>
-
-            <div class="partner-item">
-                <a href="partner.html">
-                    <img src="assets/img/partner/5.png" alt="image">
-                </a>
-            </div>
-
-            <div class="partner-item">
-                <a href="partner.html">
-                    <img src="assets/img/partner/6.png" alt="image">
-                </a>
-            </div>
-
-            <div class="partner-item">
-                <a href="partner.html">
-                    <img src="assets/img/partner/7.png" alt="image">
-                </a>
-            </div>
-
-            <div class="partner-item">
-                <a href="partner.html">
-                    <img src="assets/img/partner/8.png" alt="image">
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
 <!-- End Partner Section -->
 
 @include('layouts.footer')

@@ -86,154 +86,7 @@
 </div>
 <!-- End Main Banner Area -->
 
-<!-- Start About Section -->
-<section class="about-section ptb-100">
-    <div class="container">
-        <div class="about-title-area">
-            <div class="row">
-                <div class="col-lg-7 col-md-12">
-                    <div class="about-title">
-                        <span>KNOW ABOUT US</span>
-                        <h2>The best you can't see anywhere else, We give here </h2>
-                    </div>
-                </div>
 
-                <div class="col-lg-5 col-md-12">
-                    <div class="about-text">
-                        <p>You might not be able to explain why eba tastes better when you eat it with your hands, but you know in your heart that it’s true. We’ve gathered 10 more unofficial facts like that one, and we know every Nigerian will agree with them.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="about-image">
-                    <img src="assets/img/about/about-2.jpg" alt="image">
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <div class="about-slider owl-carousel owl-theme">
-                    <div class="about-item">
-                        <div class="about-slide-image">
-                            <img src="assets/img/about/1.png" alt="image">
-                        </div>
-                        <div class="about-text">
-                            <span>Healthy journey</span>
-                            <h3>100% Clean & fresh agro services with low cost</h3>
-                        </div>
-                    </div>
-
-                    <div class="about-item">
-                        <div class="about-slide-image">
-                            <img src="assets/img/about/2.png" alt="image">
-                        </div>
-                        <div class="about-text">
-                            <span>Pure agro services</span>
-                            <h3>Rich in nutrients but no formal or defect</h3>
-                        </div>
-                    </div>
-
-                    <div class="about-item">
-                        <div class="about-slide-image">
-                            <img src="assets/img/about/3.png" alt="image">
-                        </div>
-                        <div class="about-text">
-                            <span>Healthy journey</span>
-                            <h3>Clean & fresh agro services with low cost</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="about-content-area">
-                    <div class="about-content">
-                        <h3>Life is not like a species do you believe?</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dorem ipsum dolor sit amet, consectetur adipiscing.</p>
-                    </div>
-
-                    <ul class="about-list">
-                        <li>
-                            <i class="flaticon-check"></i>
-                            Get Back to Healthy Life
-                        </li>
-
-                        <li>
-                            <i class="flaticon-check"></i>
-                            Wake Up Refreshed
-                        </li>
-
-                        <li>
-                            <i class="flaticon-check"></i>
-                            Set a Healthier Lifestyle
-                        </li>
-
-                        <li>
-                            <i class="flaticon-check"></i>
-                            Boost Energy & Metabolism
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="about-shape-image">
-        <img src="assets/img/about/about-shape.png" alt="image">
-    </div>
-</section>
-<!-- End About Section -->
-
-<!-- Start Harvesting Section -->
-<section class="harvesting-section pt-100">
-    <div class="container">
-        <div class="harvesting-title">
-            <span>HARVESTING AREAS</span>
-            <h3>Our areas of cultivation under farm</h3>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="harvesting-item">
-                    <div class="harvesting-image">
-                        <img src="assets/img/harvesting/1.png" alt="image">
-                        <img src="assets/img/harvesting/white-1.png" alt="image">
-                    </div>
-
-                    <div class="harvesting-content">
-                        <h3>Vegetables</h3>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="harvesting-item">
-                    <div class="harvesting-image">
-                        <img src="assets/img/harvesting/2.png" alt="image">
-                        <img src="assets/img/harvesting/white-2.png" alt="image">
-                    </div>
-
-                    <div class="harvesting-content">
-                        <h3>Fresh Fish</h3>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-6 offset-md-3 offset-sm-3 offset-lg-0">
-                <div class="harvesting-item">
-                    <div class="harvesting-image">
-                        <img src="assets/img/harvesting/3.png" alt="image">
-                        <img src="assets/img/harvesting/white-3.png" alt="image">
-                    </div>
-
-                    <div class="harvesting-content">
-                        <h3>Nursed Cow</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Harvesting Section -->
 
 <!-- Start Shop Section -->
 <section class="shop-section section-top pt-100 pb-70">
@@ -647,30 +500,20 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-fun-fact">
                         <h3>
-                            <span class="odometer" data-count="120">00</span>
-                            <span class="sign-icon">+</span>
-                        </h3>
-                        <p>Category Vegetable</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-fun-fact">
-                        <h3>
                             <span class="odometer" data-count="150">00</span>
                             <span class="sign-icon">+</span>
                         </h3>
-                        <p>Home Supplier</p>
+                        <p>Happy Costomer</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-fun-fact">
                         <h3>
-                            <span class="odometer" data-count="145">00</span>
+                            <span class="odometer" data-count="100">00</span>
                             <span class="sign-icon">+</span>
                         </h3>
-                        <p>Seasonal Vegetables</p>
+                        <p>Recomendation</p>
                     </div>
                 </div>
 
@@ -680,7 +523,17 @@
                             <span class="odometer" data-count="200">00</span>
                             <span class="sign-icon">+</span>
                         </h3>
-                        <p>Attended Event</p>
+                        <p>Overall Deliver</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-fun-fact">
+                        <h3>
+                            <span class="odometer" data-count="10">00</span>
+                            <span class="sign-icon">+</span>
+                        </h3>
+                        <p>unhappy client</p>
                     </div>
                 </div>
             </div>
@@ -689,38 +542,7 @@
 </section>
 <!-- End Fun Facts Section -->
 
-<!-- Start Summary Section -->
-<section class="summary-section pb-100">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="summary-image">
-                    <img src="assets/img/summary/1.png" alt="image">
-                </div>
-            </div>
 
-            <div class="col-lg-6">
-                <div class="summary-content">
-                    <span>A SUMMARY</span>
-                    <h3>A brief what we use how use the impression help you</h3>
-                    <p>On the first paragraph crucial text will be appeared consectetur adicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-
-                    <div class="summary-btn">
-                        <a class="optional-btn" href="#">
-                            Cultivation
-                            <i class="flaticon-plus"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="summary-shape-image">
-        <img src="assets/img/summary/shape.png" alt="image">
-    </div>
-</section>
-<!-- End Summary Section -->
 
 <!-- Start Services Section -->
 <section class="services-section pb-100">
@@ -732,7 +554,7 @@
                         <i class="flaticon-mission-accomplished"></i>
                         <h3>
                             <a href="single-services.html">
-                                Use of Land
+                                Enjoy how meal
                             </a>
                         </h3>
                     </div>
@@ -743,7 +565,7 @@
                         <i class="flaticon-sushi"></i>
                         <h3>
                             <a href="single-services.html">
-                                Feed of Fish
+                                Fresh ingrident
                             </a>
                         </h3>
                     </div>
@@ -776,7 +598,7 @@
                         <i class="flaticon-harvest"></i>
                         <h3>
                             <a href="single-services.html">
-                                Produce of  Vegetable
+                                Good Food
                             </a>
                         </h3>
                     </div>
@@ -787,7 +609,7 @@
                         <i class="flaticon-mission-accomplished"></i>
                         <h3>
                             <a href="single-services.html">
-                                Use of Land
+                                Well Prepared
                             </a>
                         </h3>
                     </div>
@@ -798,180 +620,8 @@
 </section>
 <!-- End Services Section -->
 
-<!-- Start Cultivation Section -->
-<section class="cultivation-section pt-100 pb-70">
-    <div class="container">
-        <div class="section-title">
-            <span>Cultivation</span>
-            <h3>Categories of cultivation</h3>
-        </div>
 
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-cultivation">
-                    <div class="cultivation-image">
-                        <img src="assets/img/cultivation/1.png" alt="image">
-                        <a href="#" class="details-btn">
-                            <i class="flaticon-plus"></i>
-                        </a>
-                    </div>
-                    <div class="cultivation-content">
-                        <span>30 Species</span>
-                        <h3>Native Fish</h3>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-cultivation">
-                    <div class="cultivation-image">
-                        <img src="assets/img/cultivation/2.png" alt="image">
-                        <a href="#" class="details-btn">
-                            <i class="flaticon-plus"></i>
-                        </a>
-                    </div>
-                    <div class="cultivation-content">
-                        <span>10 Species</span>
-                        <h3>Foreign Fish</h3>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-cultivation">
-                    <div class="cultivation-image">
-                        <img src="assets/img/cultivation/3.png" alt="image">
-                        <a href="#" class="details-btn">
-                            <i class="flaticon-plus"></i>
-                        </a>
-                    </div>
-                    <div class="cultivation-content">
-                        <span>10 Species</span>
-                        <h3>Breed Cow</h3>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-cultivation">
-                    <div class="cultivation-image">
-                        <img src="assets/img/cultivation/4.png" alt="image">
-                        <a href="#" class="details-btn">
-                            <i class="flaticon-plus"></i>
-                        </a>
-                    </div>
-                    <div class="cultivation-content">
-                        <span>08 Types</span>
-                        <h3>Vegetable</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Cultivation Section -->
-
-<!-- Start Fisherman Section -->
-<section class="fisherman-section ptb-100">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="fisherman-image">
-                    <img src="assets/img/fisherman.png" alt="image">
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <div class="fisherman-content">
-                    <span>THE AREA OF FISH</span>
-                    <h3>Though we cultivate triple area of cultivation</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-                    <ul class="fisherman-list">
-                        <li>
-                            <i class="flaticon-check"></i>
-                            Healthy Fresh fish
-                        </li>
-
-                        <li>
-                            <i class="flaticon-check"></i>
-                            Pure feed for fish
-                        </li>
-
-                        <li>
-                            <i class="flaticon-check"></i>
-                            Formalin free 30 species
-                        </li>
-
-                        <li>
-                            <i class="flaticon-check"></i>
-                            Fish Are Coldblooded
-                        </li>
-                    </ul>
-
-                    <div class="fisherman-btn">
-                        <a href="about.html" class="optional-btn">
-                            Learn About
-                            <i class="flaticon-plus"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Fisherman Section -->
-
-<!-- Start Cowman Section -->
-<section class="cowman-section pb-100">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="cowman-content">
-                    <span>THE AREA OF COW</span>
-                    <h3>Though we cultivate triple area of cultivation</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-                    <ul class="cowman-list">
-                        <li>
-                            <i class="flaticon-check"></i>
-                            Formalin free 30 species
-                        </li>
-
-                        <li>
-                            <i class="flaticon-check"></i>
-                            Fish Are Coldblooded
-                        </li>
-
-                        <li>
-                            <i class="flaticon-check"></i>
-                            Healthy Fresh fish
-                        </li>
-
-                        <li>
-                            <i class="flaticon-check"></i>
-                            Pure feed for fish
-                        </li>
-                    </ul>
-
-                    <div class="cowman-btn">
-                        <a href="about.html" class="optional-btn">
-                            Learn About
-                            <i class="flaticon-plus"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <div class="cowman-image">
-                    <img src="assets/img/cowman.png" alt="image">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Cowman Section -->
 
 <!-- Start Testimonials Section -->
 <section class="testimonials-section pt-100">
@@ -984,12 +634,12 @@
         <div class="testimonials-slider owl-carousel owl-theme">
             <div class="testimonials-item">
                 <div class="testimonials-content">
-                    <h3>Edward Elimar</h3>
-                    <span>Finest Agriculture, UK</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                    <h3>Tosin</h3>
+                    <span>Ibadan, Nigeria</span>
+                    <p>Thank You" for making such wonderful quality products. I especially love-love-love</p>
 
                     <div class="testimonials-info">
-                        <img src="assets/img/client/1.jpg" alt="image">
+                        <img src="assets/img/client/15.jpg" alt="image">
                         <div class="icon">
                             <i class="flaticon-quote"></i>
                         </div>
@@ -1016,12 +666,12 @@
 
             <div class="testimonials-item">
                 <div class="testimonials-content">
-                    <h3>Hamfard Kolin</h3>
-                    <span>Agriculture Terbo, Canada</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                    <h3>Akinyele</h3>
+                    <span>Lagos, Nigeria</span>
+                    <p>Just a word of thanks to your company for the continued great service</p>
 
                     <div class="testimonials-info">
-                        <img src="assets/img/client/2.jpg" alt="image">
+                        <img src="assets/img/client/14.jpg" alt="image">
                         <div class="icon">
                             <i class="flaticon-quote"></i>
                         </div>
@@ -1048,12 +698,12 @@
 
             <div class="testimonials-item">
                 <div class="testimonials-content">
-                    <h3>Jupiter Bolin</h3>
-                    <span>Cultivation Into, USA</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                    <h3>Ayomide</h3>
+                    <span>ikeja,Nigeria</span>
+                    <p>I just wanted to say a huge "thank you" for my 1st delivery from the food delivery company yesterday</p>
 
                     <div class="testimonials-info">
-                        <img src="assets/img/client/3.jpg" alt="image">
+                        <img src="assets/img/client/12.jpg" alt="image">
                         <div class="icon">
                             <i class="flaticon-quote"></i>
                         </div>
@@ -1080,12 +730,12 @@
 
             <div class="testimonials-item">
                 <div class="testimonials-content">
-                    <h3>Marie Curie Sklodowska</h3>
-                    <span>Finest Agriculture, Canada</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                    <h3>Samuel</h3>
+                    <span>Abeokuta, Nigeria</span>
+                    <p> I would just like to say how continually pleased we are with everything about your company.</p>
 
                     <div class="testimonials-info">
-                        <img src="assets/img/client/4.jpg" alt="image">
+                        <img src="assets/img/client/13.jpg" alt="image">
                         <div class="icon">
                             <i class="flaticon-quote"></i>
                         </div>
@@ -1112,12 +762,12 @@
 
             <div class="testimonials-item">
                 <div class="testimonials-content">
-                    <h3>Louis Pasteur</h3>
-                    <span>Finest Agriculture, Japan</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                    <h3>Toluwalope</h3>
+                    <span>Ogba, lagos, Nigeria</span>
+                    <p> I just wanted to say how much we appreciate your service. We have had deliveries for a while now and the quality has never dipped.</p>
 
                     <div class="testimonials-info">
-                        <img src="assets/img/client/2.jpg" alt="image">
+                        <img src="assets/img/client/11.jpg" alt="image">
                         <div class="icon">
                             <i class="flaticon-quote"></i>
                         </div>
@@ -1151,16 +801,16 @@
     <div class="container">
         <div class="section-title">
             <span>OUR BLOG</span>
-            <h3>Articles & news</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreonsectetur adipiscinet dolore.</p>
+            <h3>Funny Jokes About Food</h3>
+            <p>You might not be able to explain why eba tastes better when you eat it with your hands, but you know in your heart that it’s true</p>
         </div>
 
         <div class="row">
             <div class="col-lg-4 col-md-6">
                 <div class="single-blog-item bg-1">
-                    <span>Trifles for tech, 22 January</span>
-                    <h3>Innovating with Autodesk my Trifles Partnership Adds</h3>
-                    <p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempo incididun.</p>
+                    <span>Okela special, 22 July</span>
+                    <h3>Swallow tastes better when you eat it with your hands</h3>
+                    <p>Keep that fork away from me.</p>
                     <div class="blog-btn">
                         <a href="single-news.html" class="blog-btn-one">
                             Learn more
@@ -1172,9 +822,9 @@
 
             <div class="col-lg-4 col-md-6">
                 <div class="single-blog-item bg-2">
-                    <span>Woman for Trifles, August 23</span>
-                    <h3>My Trifles Grows in World Delivering Impact on woman</h3>
-                    <p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempo incididun.</p>
+                    <span>Okela special, 22 July</span>
+                    <h3>Pounded yam tastes better when someone else does the pounding</h3>
+                    <p>Especially if they sweat inside it small. Don’t @ us.</p>
                     <div class="blog-btn">
                         <a href="single-news.html" class="blog-btn-one">
                             Learn more
@@ -1186,9 +836,9 @@
 
             <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
                 <div class="single-blog-item bg-3">
-                    <span>Success history, February 26</span>
-                    <h3>Wrapping Up a Successful Month of Orientation Senegal </h3>
-                    <p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempo incididun.</p>
+                    <span>Okela special, 22 July</span>
+                    <h3> You’re never too full to eat your meat. </h3>
+                    <p>There is always space in your stomach.</p>
                     <div class="blog-btn">
                         <a href="single-news.html" class="blog-btn-one">
                             Learn more
@@ -1203,59 +853,7 @@
 <!-- End Blog Section -->
 
 <!-- Start Partner Section -->
-<div class="partner-section">
-    <div class="container">
-        <div class="partner-list">
-            <div class="partner-item">
-                <a href="partner.html">
-                    <img src="assets/img/partner/1.png" alt="image">
-                </a>
-            </div>
 
-            <div class="partner-item">
-                <a href="partner.html">
-                    <img src="assets/img/partner/2.png" alt="image">
-                </a>
-            </div>
-
-            <div class="partner-item">
-                <a href="partner.html">
-                    <img src="assets/img/partner/3.png" alt="image">
-                </a>
-            </div>
-
-            <div class="partner-item">
-                <a href="partner.html">
-                    <img src="assets/img/partner/4.png" alt="image">
-                </a>
-            </div>
-
-            <div class="partner-item">
-                <a href="partner.html">
-                    <img src="assets/img/partner/5.png" alt="image">
-                </a>
-            </div>
-
-            <div class="partner-item">
-                <a href="partner.html">
-                    <img src="assets/img/partner/6.png" alt="image">
-                </a>
-            </div>
-
-            <div class="partner-item">
-                <a href="partner.html">
-                    <img src="assets/img/partner/7.png" alt="image">
-                </a>
-            </div>
-
-            <div class="partner-item">
-                <a href="partner.html">
-                    <img src="assets/img/partner/8.png" alt="image">
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
 <!-- End Partner Section -->
 
 @include('layouts.footer')

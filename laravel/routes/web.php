@@ -39,6 +39,9 @@ Route::get('shop', [ProductController::class, 'shop'])->name('shop');
 Route::middleware(['auth'])->group(function () {
     Route::get('cart', [ProductController::class, 'cat' ])->name('cart');
     Route::get('dele/{id}', [ProductController::class, 'delete' ])->name('dele');
+    Route::get('add/{id}', [ProductController::class, 'increasequantity' ])->name('add');
+    Route::get('sub/{id}', [ProductController::class, 'decreasequantity' ])->name('sub');
+    Route::get('checkout/{username}', [ProductController::class, 'pay' ])->name('checkout');
     Route::get('add-cart/{id}', [ProductController::class, 'addcat'])->name('add-cart');
 
 });

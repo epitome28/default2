@@ -7,6 +7,6 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 class cat extends Authenticatable
 {
     protected $fillable = [
-        'username', 'product_id', 'product', 'amount', 'path',
+        'username', 'product_id', 'product', 'amount', 'path','quantity', 'totalprice',
     ];
 }

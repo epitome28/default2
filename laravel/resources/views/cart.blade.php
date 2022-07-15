@@ -58,17 +58,17 @@
                                     <td class="product-quantity">
                                         <div class="input-counter">
 														<span class="minus-btn">
-															<i class="fa fa-minus"></i>
+															<i class="fa fa-minus" onclick="window.location='{{route('sub',$shop->id)}}'"></i>
 														</span>
-                                            <input type="text" value="1">
+                                            <input type="text" value="{{$shop->quantity}}">
                                             <span class="plus-btn">
-															<i class="fa fa-plus"></i>
+															<i class="fa fa-plus" onclick="window.location='{{route('add',$shop->id)}}'"></i>
 														</span>
                                         </div>
                                     </td>
 
                                     <td class="product-subtotal">
-                                        <span class="subtotal-amount">₦{{number_format(intval($shop->amount *1))}}</span>
+                                        <span class="subtotal-amount">₦{{number_format(intval($shop->totalprice *1))}}</span>
 
                                         <a href="{{route('dele',$shop->id)}}" class="remove">
                                             <i class="fa fa-trash"></i>
@@ -142,7 +142,7 @@
                                     <li>Shipping <span>₦{{number_format(intval($ship *1))}}</span></li>
                                     <li>Total <span><b>₦{{number_format(intval($tsum *1))}}</b></span></li>
                                 </ul>
-                                <a href="checkout.html" class="default-btn">
+                                <a href="{{route('checkout',Auth::user()->username)}}" class="default-btn">
                                     Proceed to Checkout
                                     <span></span>
                                     <i class="flaticon-right"></i>

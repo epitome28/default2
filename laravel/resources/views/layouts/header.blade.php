@@ -120,7 +120,7 @@
                                 </a>
                             </li>
                             @endif
-                    </ul>
+                    </ul>-
 
                     <div class="others-options">
                         <div class="option-item"><i class="search-btn fa fa-search"></i>
